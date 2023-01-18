@@ -20,8 +20,8 @@ def attack():
         attack_num += 1
         packesnum =attack_num
         packesnum= str(packesnum)
-        print("Packets Sending => "+packesnum)
-        print("Done")  
+        print("Packets sending -> "+packesnum)
+        print("Completed.")  
         s.close()
 print("Packets sent successfully!")
 for i in range(500):
